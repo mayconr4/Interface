@@ -1,6 +1,8 @@
 package Model;
 
-public class Pessoa {
+import Interface.Crud;
+
+public class Pessoa implements Crud {
     private String nome ;
     private String telefone ;
     private String email;
@@ -41,4 +43,27 @@ public class Pessoa {
     public void setEmail(String email) {
         this.email = email;
     }
+
+    @Override
+    public void create() {
+
+    }
+
+    @Override
+    public void update() {
+
+    }
+
+    @Override
+    public void delete() {
+
+    }
+
+    @Override
+    public void list() {
+
+    }
+
+
+
 }
